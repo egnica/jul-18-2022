@@ -1,4 +1,5 @@
 import { useState } from "react"
+import'../App.css'
 const DynamicBox = () => {
 
     const [width, ChangeWidth] = useState(5);
@@ -14,7 +15,7 @@ const DynamicBox = () => {
             
             </div>
             <br/><br/>
-            <div style={{height:(height +'em'), width:(width + 'em'),backgroundColor: 'blue', marginLeft: '100px'}}></div>
+            <div className = 'dynamic-box' style={{height:(height +'em'), width:(width + 'em')}}></div>
 
         </div>
     )

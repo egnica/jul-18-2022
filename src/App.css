@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.dynamic-box{
+  background-color: blue;
+  transition: all 0.3s ease-out;
+  margin-left: 40%;
+  animation: App-logo-spin infinite 20s linear;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
