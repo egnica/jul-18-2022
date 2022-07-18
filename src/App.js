@@ -1,6 +1,7 @@
 import Form from './Form/Form';
 import ThreeButtons from './ThreeButtons/ThreeButtons';
 import ColorButton from './ColorButton/ColorButton';
+import DynamicBox from './DynamicBox/DynamicBox';
 import './App.css';
 import { useState } from 'react';
 
@@ -32,6 +33,7 @@ const ThreeButtonHandler = (value) => {
     <ThreeButtons transferButton = {ThreeButtonHandler}/>
     <br/><br/>
     <ColorButton/>
+    <DynamicBox/>
     </div>
   );
 }
